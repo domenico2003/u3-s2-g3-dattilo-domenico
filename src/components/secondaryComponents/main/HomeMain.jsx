@@ -60,8 +60,8 @@ class HomeMain extends Component {
       <>
         <main className="pb-3">
           <div className=" d-flex justify-content-between py-3 pb-5">
-            <div class="d-flex gap-5">
-              <h2 class="fw-bold ">TV Shows</h2>
+            <div className="d-flex gap-5">
+              <h2 className="fw-bold ">TV Shows</h2>
               <Dropdown>
                 <Dropdown.Toggle
                   variant="nero-puro"
@@ -97,10 +97,10 @@ class HomeMain extends Component {
                 <i className="bi bi-search fs-6 "></i>
               </Button>
               <Button variant="outline-light" className="rounded-0 py-1 px-3">
-                <i class="bi bi-text-left"></i>
+                <i className="bi bi-text-left"></i>
               </Button>
               <Button variant="outline-light" className="rounded-0 py-1 px-3">
-                <i class="bi bi-grid-fill "></i>
+                <i className="bi bi-grid-fill "></i>
               </Button>
             </ButtonGroup>
           </div>

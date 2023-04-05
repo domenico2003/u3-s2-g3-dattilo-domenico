@@ -12,7 +12,32 @@
   height: 100%;
   object-fit: cover;
 }
+.lista-commenti {
+  .list-group-item {
+    background-color: #141414;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.482);
+  }
+}
+body {
+  background-color: #141414;
+}
 
+.opacity-1 {
+  opacity: 1;
+}
+
+.img-carusel:hover {
+  cursor: pointer;
+}
+
+.card-film {
+  border: 0.5px solid rgba(0, 0, 0, 0.175);
+  background-color: #141414;
+  box-shadow: 0 0 1rem 11px rgba(0, 0, 0, 0.281);
+  border-radius: 15px;
+  padding-block: 50px;
+}
 .input-film {
   background-color: #141414;
   border-radius: 50px;
@@ -42,9 +67,13 @@ footer {
   border-radius: 40px;
   padding: 30px;
 }
-
+.carousel-control-next {
+  justify-content: flex-end;
+  width: fit-content;
+}
 .carousel-control-prev {
   justify-content: flex-start;
+  width: fit-content;
 }
 .mydrop {
   button {
